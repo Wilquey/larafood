@@ -20,9 +20,9 @@ class UsersTableSeeder extends Seeder
         $tenant = Tenant::first();
 
         $tenant->users()->create([
-            'name' => 'Carlos Ferreira',
-            'email' => 'carlos@especializati.com.br',
-            'password' => bcrypt('123456'),
+            'name' => 'Wilquey Caetano',
+            'email' => 'wilquey@gmail.com',
+            'password' => bcrypt('123123'),
         ]);
     }
 }
